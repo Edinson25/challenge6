@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    font-family: 'Outfit', sans-serif;
+}
+
+
+.alto-100{
+    height: 100vh;
+}
+
+.tamaño{
+    width: 90% !important;
+}
+
+body{
+    background: hsl(217, 54%, 11%) !important;
+}
+
+.color-card{
+    background: hsl(216, 50%, 16%) !important;
+}
+
+.precio{
+    color: hsl(178, 100%, 50%);
+}
+
+.perfil-img{
+    width: 13% !important;
+}
+
+.perfil-text{
+    margin-top: 20px !important;
+}
+
+.text-hover:hover{
+    color: hsl(178, 100%, 50%) !important;
+    cursor: pointer;
+}
+
+.img-hover:hover{
+    cursor: pointer;
+    background: red;
+    z-index: 1000;
+}
